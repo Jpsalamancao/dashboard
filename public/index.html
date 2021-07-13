@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="../src/styles/styles.css">
+  <!-- Title -->
+  <title>Monitoreo</title>
 </head>
-<style>
-        .header_kamati {
-        width: 150px;
-        margin-top:12px;
-        margin-right:1%;
-        margin-bottom: 12px;
-        /* box-sizing: border-box; */
-     }
-    
-    .header_monitoreo{
-        color:#3f0680;
-        width: 20%;
-    }
-
-
-</style>
 
 <body>
-    <header> 
-        <h1 class= "header_monitoreo"> MNITOREO </h1>
-        <img class="header_kamati" src="/src/components/KamatiLogo.webp" >
-    </header>
+  <header class="header">
+    <img class="header__img" src="../src/components/KamatiLogo.png" alt="KAMATI">
+  </header>
+  <section class="monitoreo">
+      <section class="monitoreo__container">
+        <h2>MONITOREO  </h2>
+        <h3>LINEA HIDRAULICA</h3>
+        <form class="monitoreo_container--presion">
+            <h1 > 18 PSI</h1>
 
-    <section></section>
-
-    <footer>
-
-    </footer>
+        </form>
+        <section class="Monitoreo__social-media">
+          <!-- <div><img src="../src/components/google-icon.png" alt="Google">Inicia sesión con Google</div> -->
+          <div><img src="../src/components/linkedin.png" alt="Twitter">Sigunos en Linkedin</div>
+          <div><img src="../src/components/facebook.png" alt="Twitter">Sigunos en facebook</div>
+        </section>
+        <!-- <p class="login__container--register">No tienes ninguna cuenta <a href="">Regístrate</a></p> -->
+      </section>
+  </section>
+  <footer class="footer">
+    <a href="https://kamati.co/certificados/">Términos de uso</a>
+    <a href="https://kamati.co/nosotros/">Declaración de privacidad</a>
+    <a href="https://kamati.co/">Centro de ayuda</a>
+  </footer>
 </body>
 </html>
